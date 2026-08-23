@@ -77,7 +77,7 @@ console.log(animals); // it will return the original array.
 
 
 
-//splice() method: it is used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place. It modifies the original array and returns an array containing the deleted elements.
+//*****splice() method: it is used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place. It modifies the original array and returns an array containing the deleted elements.
 const colors = ["Red", "Green", "Blue", "Yellow", "Purple"];
 const removedColors = colors.splice(2, 2, "Orange", "Pink"); // it will remove 2 elements from index 2 and add 2 new elements at index 2.
 console.log(colors); // it will return the modified array.
