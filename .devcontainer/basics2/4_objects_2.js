@@ -56,3 +56,4 @@ console.log(tinderUser);
 console.log(Object.keys(tinderUser)); //['id', 'name', 'isLoggedIn'] //Object.keys() method returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.
 console.log(Object.values(tinderUser)); //['123abc', 'Siddharth', false] //Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...in loop.
 console.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Siddharth' ], [ 'isLoggedIn', false ] ] //Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a for...in loop.
+
