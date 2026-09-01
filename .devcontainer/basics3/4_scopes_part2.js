@@ -5,8 +5,9 @@ function one() {
         const website = "Siddharth.com"
         console.log(username);
 
+        console.log(website);
     }
-    //console.log(website); // ReferenceError: website is not defined
+    console.log(website); // ReferenceError: website is not defined
     two()
 }
 //one()
@@ -17,9 +18,9 @@ if (true) {
     const username = "Siddharth"
     if(username === "Siddharth") {
         const website = "Siddharth.com"
-        //console.log(username + website);
+        console.log(username + website);
     }
-    //console.log(username);
+    console.log(username);
 }
 
 
